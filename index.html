@@ -1,66 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  #header.show-on-scroll {
+    width: 915;
+    height: 140;
+    color: #222222;
+    font: 18px "Open Sans";
+    background: white;
+    padding: 0px 100px;
+  }
+  div.header-inner {
+    width: 715;
+    height: 140;
+    color: #222222;
+    font: 18px "Open Sans";
+    padding: 20px 0px;
+  }
+  div.mobile-nav-toggle.fixed-nav-toggle {
+    width: 22;
+    height: 22;
+    margin: -8px 0px 0px;
+  }
+  div.top-bar {
+    width: 22;
+    height: 2;
+    background: #1472A8;
+  }
+  div.middle-bar {
+    width: 22;
+    height: 2;
+    background: #1472A8;
+  }
+  div.bottom-bar {
+    width: 22;
+    height: 2;
+    background: #1472A8;
+  }
+  div#sidecarNav {
+    width: 260;
+    height: 657;
+    color: black;
+    font: 16px sans-serif;
+    background: white;
+  }
+  nav#mobileNavigation {
+    width: 260;
+    height: 457;
+    color: black;
+    font: 16px sans-serif;
+    padding: 24px 36px 72px;
+  }
+  div.collection a {
+    width: 188;
+    height: 47.5;
+    color: #1472A8;
+    font: 19px proxima-nova;
+    padding: 14.25px 0px;
+  }
+  div.external {
+    width: 188;
+    height: 76;
+    color: black;
+    font: 16px sans-serif;
+  }
+  div.external a {
+    width: 123.02;
+    height: 57;
+    color: white;
+    font: 19px proxima-nova;
+    margin: 19px 0px 0px;
+    padding: 19px 28.5px;
+  }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home watch house checks cape cod Chatham, Orleans, Harwich, Brewster</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="image_src" href="website-logo.jpg">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<title>Belajar Bootstrap</title>
+    <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 bg-primary">
-                <div class="col-md-12 bg-primary">
-                    <div class="jumbotron">
-                        <h1>Bootstrap is Fun!</h1>
-                        <p>Let's go learn some bootstrap fellas'</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-3 bg-danger">Left Content</div>
-            <div class="col-md-6 bg-secondary text-white">Content</div>
-            <div class="col-md-3 bg-warning">Right Content</div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 bg-dark">Footer</div>
-        </div>
-
-        <table class="table table-striped table-bordered table-hover">
-            <tr>
-                <th>No.</th>
-                <th>NIM</th>
-                <th>Nama</th>
-            </tr>
-            <tr class="table-danger">
-                <td>1.</td>
-                <td>123</td>
-                <td>Rini</td>
-            </tr>
-            <tr class="table-primary">
-                <td>1.</td>
-                <td>123</td>
-                <td>Rini</td>
-            </tr>
-        </table>
-
-        <button type="button" class="btn btn-danger">Button</button>
-        <button type="button" class="btn btn-warning">Button</button>
-        <button type="button" class="btn btn-success">Button</button>
+  <a href="#" class="body-overlay"></a>
+  <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
+    <div class="header-inner">
+      <div id="logoWrapper" class="wrapper" data-content-field="site-title">
+          <h1 id="logoImage"><a href="index.html"><img src="website-logo.jpg" width="380" height="99.75"></a></h1>
+      </div>
     </div>
+
+    <div id="sidecarNav">
+      <div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
+        <nav id="mobileNavigation">
+          <div class="collection"><a href="#">Services</a></div>
+          <div class="collection"><a href="#">Why chc</a></div>
+          <div class="collection"><a href="#">About</a></div>
+          <div class="collection"><a href="#">Contact</a></div>
+          <div class="collection"><a href="#">Qrs</a></div>
+          <div class="collection"><a href="#">Forms</a></div>
+          <div class="external"><a href="#" target="_blank">Login</a></div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="mobile-nav-toggle fixed-nav-toggle">
+      <div class="top-bar"></div>
+      <div class="middle-bar"></div>
+      <div class="bottom-bar"></div>
+    </div>
+  </header>
 </body>
 </html>
