@@ -71,11 +71,6 @@
     margin: 19px 0px 0px;
     padding: 19px 28.5px;
   }
-  body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -94,7 +89,7 @@ footer.jumbotron p {
 }
 p.special {
   line-height: 1.8;
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: large;
 }
 div.container {
@@ -135,15 +130,37 @@ div.clearfix {
 </head>
 <body>
   <div class="container-fluid">
-    <a href="#" class="body-overlay"></a>
-    <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
-      <div class="header-inner">
-        <div id="logoWrapper" class="wrapper" data-content-field="site-title">
-            <h1 id="logoImage"><a href="index.html"><img src="website-logo.jpg" width="380" height="99.75"></a></h1>
-        </div>
-      </div>
+      <nav class="navbar navbar-expand-xxl bg-white navbar-primary">
+        <h1 id="logoImage"><a href="index.html"><img src="website-logo.jpg" width="380" height="99.75"></a></h1>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">WHY CHC</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">QRS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FORMS</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
 
-      <div id="sidecarNav">
+
+      <!-- <div id="sidecarNav">
         <div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
           <nav id="mobileNavigation">
             <div class="collection"><a href="#">Services</a></div>
@@ -161,7 +178,7 @@ div.clearfix {
         <div class="top-bar"></div>
         <div class="middle-bar"></div>
         <div class="bottom-bar"></div>
-      </div>
+      </div> -->
     </header>
 
       <div class="container-fluid bg-white">
